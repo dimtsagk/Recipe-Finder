@@ -8,6 +8,7 @@
   body {
     background-color: #b8860b;
     background-image: url('bgfood.jpg'); 
+    background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
     height: 100%; 
