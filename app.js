@@ -6,7 +6,7 @@ let apiURL = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 findButton.addEventListener("click", () => {
   let userInput = document.getElementById("recipe-input").value.trim();
   if (!userInput) {
-    resultDiv.innerHTML = `<h3>Please enter a recipe name</h3>`;
+    resultDiv.innerHTML = `<h3>Please enter a recipe name (in english)</h3>`;
     return;
   }
 
